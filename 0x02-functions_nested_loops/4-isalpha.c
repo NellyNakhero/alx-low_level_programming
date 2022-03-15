@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _isalpha
+ * _isalpha - Checks if a character is alphabetic.
  * @c: An input character
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.

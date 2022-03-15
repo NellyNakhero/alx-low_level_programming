@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-/*
- * function main - prints _putchar, followed by a new line
- *
- * Description: Write a program that prints _putchar, followed by a new line.
- *	return 0
- *
+/**
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
 	putchar('_');

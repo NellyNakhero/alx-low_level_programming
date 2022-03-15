@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - prints _putchar, followed by a new line
+ * function main - prints _putchar, followed by a new line
  *
  * Description: Write a program that prints _putchar, followed by a new line.
  *	return 0

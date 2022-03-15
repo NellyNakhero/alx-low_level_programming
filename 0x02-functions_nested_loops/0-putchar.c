@@ -6,6 +6,7 @@
  * description: a program that prints _putchar, followed by a new line.
  * return 0
  *
+ * main- prints _putchar, followed by a new line
  */
 
 int main(void)

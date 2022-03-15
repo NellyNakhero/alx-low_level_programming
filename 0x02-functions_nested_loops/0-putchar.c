@@ -1,12 +1,17 @@
-#include <stdio.h>
-
-/*
+/* 
  * filename: 0-putchar.c
  *
  * description: a program that prints _putchar, followed by a new line.
  * return 0
  *
+ */
+
+#include <stdio.h>
+
+/*
  * main- prints _putchar, followed by a new line
+ * return 0
+ *
  */
 
 int main(void)

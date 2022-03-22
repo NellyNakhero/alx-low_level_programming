@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * _strcpy - a function that copies the string pointed to by src,
@@ -9,6 +10,7 @@
  *
  * Return: pointer to dest
  */
+
 char *_strcpy(char *dest, char *src)
 {
 	char *temp = dest;

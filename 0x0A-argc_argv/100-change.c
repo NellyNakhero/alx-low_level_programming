@@ -7,7 +7,6 @@
  * make change for an amount of money
  * @argc: The arguements' counter
  * @argv: The argument's values
- *
  * Return: 1 if the number of arguments passed is not exactly
  * or 0 in otherwise
  */
@@ -45,7 +44,6 @@ int main(int argc, char **argv)
 		}
 		if (amount % 1 >= 0)
 			coins += amount;
-
 		printf("%d\n", coins);
 		return (0);
 	}

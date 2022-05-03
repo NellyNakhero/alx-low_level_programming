@@ -1,8 +1,3 @@
-/*
- * File: 100-elf_header.c
- * Auth: Brennan D Baraban
- */
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -21,7 +16,6 @@ void print_osabi(unsigned char *e_ident);
 void print_type(unsigned int e_type, unsigned char *e_ident);
 void print_entry(unsigned long int e_entry, unsigned char *e_ident);
 void close_elf(int elf);
-
 /**
  * check_elf - Checks if a file is an ELF file.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
@@ -29,8 +23,7 @@ void close_elf(int elf);
  * Description: If the file is not an ELF file - exit code 98.
  */
 void check_elf(unsigned char *e_ident)
-{
-	int index;
+{int index;
 
 	for (index = 0; index < 4; index++)
 	{
@@ -288,7 +281,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	}
 	header = malloc(sizeof(Elf64_Ehdr));
 	if (header == NULL)
-[O	{
+	{
 		close_elf(o);
 		dprintf(STDERR_FILENO, "Error: Can't read file %s\n", argv[1]);
 		exit(98);

@@ -1,2 +1,2 @@
-#! usr/bin/bash
-echo "Hello World"
+#!/bin/bash
+cat /proc/sys/kernel/pid_max

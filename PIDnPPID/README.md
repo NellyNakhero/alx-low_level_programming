@@ -22,6 +22,11 @@ A process is an instance of an executing program, that has a unique process ID. 
 			<br/>  <code>splitstringtoarray.c </code> - Write a function that splits a string and returns an array of each word of the string.
 
 </td>                                                                                                                   
-</tr> 
+</tr>
+
+<tr>                                                                                                                                                                                           
+        <td> Executing_a_program </td>                                                                                                                                                                 
+        <td> The system call execve allows a process to execute another program (man 2 execve). Note that this system call does load the new program into the current process’ memory in place of the “previous” program: on success execve does not return to continue the rest of the “previous” program. </td>                                                                                                                   
+</tr>  
 </table>
 </div>

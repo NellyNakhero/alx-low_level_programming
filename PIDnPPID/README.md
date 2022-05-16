@@ -15,5 +15,13 @@ A process is an instance of an executing program, that has a unique process ID. 
         <td> 1. /proc/sys/kernel/pid_max
 	<br/> &nbsp; &nbsp;Write a shell script that prints the maximum value a process ID can be. </td>                                                                                                                   
 </tr> 
+<tr>                                                                                                                                                                                           
+        <td> 0x00-av </td>                                                                                                                                                                 
+        <td> <b>Arguments</b> <br/> <code>av.c </code> - Write a program that prints all the arguments, without using ac.
+ 	 		<br/>	<code> readline.c </code> - Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+			<br/>  <code>splitstringtoarray.c </code> - Write a function that splits a string and returns an array of each word of the string.
+
+	 </td>                                                                                                                   
+</tr> 
 </table>
 </div>

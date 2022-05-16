@@ -33,5 +33,10 @@ A process is an instance of an executing program, that has a unique process ID. 
         <td> Creating_processes </td>                                                                                                                                                                 
         <td> The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps. </td>                                                                                                                   
 </tr> 
+
+<tr>                                                                                                                                                                                           
+        <td> Wait </td>                                                                                                                                                                 
+        <td> The wait system call (man 2 wait) suspends execution of the calling process until one of its children terminates. </td>                                                                                                                   
+</tr> 
 </table>
 </div>

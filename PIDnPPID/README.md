@@ -28,5 +28,10 @@ A process is an instance of an executing program, that has a unique process ID. 
         <td> Executing_a_program </td>                                                                                                                                                                 
         <td> The system call execve allows a process to execute another program (man 2 execve). Note that this system call does load the new program into the current process’ memory in place of the “previous” program: on success execve does not return to continue the rest of the “previous” program. </td>                                                                                                                   
 </tr>  
+
+<tr>                                                                                                                                                                                           
+        <td> Creating_processes </td>                                                                                                                                                                 
+        <td> The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps. </td>                                                                                                                   
+</tr> 
 </table>
 </div>

@@ -21,7 +21,7 @@ A process is an instance of an executing program, that has a unique process ID. 
  	 		<br/>	<code> readline.c </code> - Write a program that prints "$ ", wait for the user to enter a command, prints it on the next line.
 			<br/>  <code>splitstringtoarray.c </code> - Write a function that splits a string and returns an array of each word of the string.
 
-	 </td>                                                                                                                   
+</td>                                                                                                                   
 </tr> 
 </table>
 </div>

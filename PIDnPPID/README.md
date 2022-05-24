@@ -41,7 +41,7 @@ A process is an instance of an executing program, that has a unique process ID. 
 
 <tr>                                                                                                                                                                                           
         <td> fork + wait + execve </td>                                                                                                                                                                        
-        <td> <code> fork+wait+execve.c </code> a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child. </td>                                                           
+        <td> <code> fork+wait+execve.c </code> - a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child. </td>                                                           
                                                                                                                                                                                                
 </tr>
 

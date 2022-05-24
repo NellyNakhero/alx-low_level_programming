@@ -38,5 +38,12 @@ A process is an instance of an executing program, that has a unique process ID. 
         <td> Wait </td>                                                                                                                                                                 
         <td> The wait system call (man 2 wait) suspends execution of the calling process until one of its children terminates. </td>                                                                                                                   
 </tr> 
+
+<tr>                                                                                                                                                                                           
+        <td> fork + wait + execve </td>                                                                                                                                                                        
+        <td> <code> fork+wait+execve.c </code> a program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child. </td>                                                           
+                                                                                                                                                                                               
+</tr>
+
 </table>
 </div>

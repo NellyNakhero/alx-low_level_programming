@@ -40,7 +40,7 @@ void func_loop(char **environ, char *file)
 	signal(SIGINT, newline);
 	while (1)
 	{
-		write(STDOUT_FILENO, "hsh$ ", 5);
+		write(STDOUT_FILENO, "\t\t$ ", 5);
 		str = malloc(sizeof(char) * size);
 		if (!str)
 		{

@@ -15,7 +15,7 @@ To compile:
 To execute:
 ```
 	./shell
-
+```
 
 ## Sample Run 💻
 * run the executable as `./shell`

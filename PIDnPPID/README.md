@@ -45,5 +45,11 @@ A process is an instance of an executing program, that has a unique process ID. 
                                                                                                                                                                                                
 </tr>
 
+<tr>                                                                                                                                                                                           
+        <td> File_Information </td>                                                                                                                                                                        
+        <td> <code> stat.c </code> - The stat (man 2 stat) system call gets the status of a file. On success, zero is returned. On error, -1 is returned. </td>                                                           
+                                                                                                                                                                                               
+</tr> 
+
 </table>
 </div>
